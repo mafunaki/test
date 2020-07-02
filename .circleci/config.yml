@@ -15,3 +15,7 @@ jobs:
     steps:
       - sayhello:
         to: "Lev"
+workflows:
+  Hello Workflow:
+    jobs:
+      - myjob

@@ -1,0 +1,10 @@
+version: 2.1
+commands:
+  sayhello:
+    description: "デモ用のごく簡単なコマンドです"
+    parameters:
+      to:
+        type: string
+        defualt: "Hello World"
+      steps:
+        -run: echo << parameters.to >>
